@@ -67,7 +67,7 @@
                     android:orientation="horizontal">
 
                     <CheckBox
-                        android:id="@+id/checkBox12"
+                        android:id="@+id/checkBox42"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -75,7 +75,7 @@
                         tools:text="15-34 " />
 
                     <CheckBox
-                        android:id="@+id/checkBox13"
+                        android:id="@+id/checkBox43"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -83,7 +83,7 @@
                         tools:text="35-54" />
 
                     <CheckBox
-                        android:id="@+id/checkBox14"
+                        android:id="@+id/checkBox44"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -91,13 +91,49 @@
                         tools:text="55-74" />
 
                     <CheckBox
-                        android:id="@+id/checkBox15"
+                        android:id="@+id/checkBox45"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="CheckBox"
                         tools:text="75-95" />
                 </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    tools:text="Quel est le stade de votre parodontite?" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/checkBox13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CheckBox"
+                        tools:text="Marginale" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CheckBox"
+                        tools:text="Modérée" />
+                    <CheckBox
+                        android:id="@+id/checkBox15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CheckBox"
+                        tools:text="Sévère" />
+                </GridLayout>
 
                 <TextView
                     android:id="@+id/textView8"
